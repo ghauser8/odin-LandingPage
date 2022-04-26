@@ -1,11 +1,40 @@
+.Bod {
+    display: flex;
+    flex-direction: column;
+}
+
 .Header,
 .Footer,
 .Intro {
     background-color: #1F2937;
+    display: flex;
+
 }
 
-.Contact {
-    background-color: #3882f6;
+.Gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cards {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.Intro .Title {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+}
+
+li,
+.Intro .Subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .Quote {
@@ -19,3 +48,22 @@
     font-size: 36px;
     font-style: italic;
 }
+
+.Contact {
+    display: flex;
+}
+
+.ContactContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact,
+button {
+    background-color: #3882f6;
+}
+
+
+
+
+

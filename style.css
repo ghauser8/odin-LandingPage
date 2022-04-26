@@ -1,23 +1,45 @@
 .Bod {
     display: flex;
     flex-direction: column;
+    
+    
 }
+
+.Intro,
+.Gallery,
+.Quote,
+.Contact {
+    display: flex;
+    flex: 1, 1, 30%;
+    padding: 20px;
+}
+
+
 
 .Header,
 .Footer,
 .Intro {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
 
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .Gallery {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Cards {
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -39,7 +61,15 @@ li,
 
 .Quote {
     background-color: #e5e7eb;
-    
+    flex-direction: column;
+}
+
+.QuoteText {
+    align-self: left;
+}
+
+.QuoteAttr {
+    align-self: right;
 }
 
 .QuoteText,
@@ -51,6 +81,7 @@ li,
 
 .Contact {
     display: flex;
+    justify-content: space-between;
 }
 
 .ContactContainer {
@@ -61,6 +92,14 @@ li,
 .Contact,
 button {
     background-color: #3882f6;
+}
+
+.Footer {
+    justify-content: space-around;
+}
+
+.Footer .FooterText {
+    color: #F9FAF8;
 }
 
 
